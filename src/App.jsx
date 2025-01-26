@@ -13,7 +13,7 @@ import ProductList from './Pages/ProductList';
 import RegLog from './Pages/RegLog';
 import SignUp from './Pages/SignUp';
 // import Cart from './Pages/Cart';
-
+import Cart from './Pages/Cart';
 const App = () => {
   return (
     <div>
@@ -39,7 +39,7 @@ const App = () => {
 
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/cart" element={<Cart />} /> */}
+          <Route path="/cart" element={<Cart />} />
 
           <Route path="/faqs" element={<Faqs />} />
           <Route
