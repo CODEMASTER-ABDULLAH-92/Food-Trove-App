@@ -11,9 +11,8 @@ const Home = () => {
   return (
     <div>
       <Hero/>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi vitae animi quaerat nemo ab. Ea aperiam, repudiandae nam nihil animi velit nulla eligendi totam natus, excepturi consectetur voluptatum cumque odit!
       <Herodown/>
-      {/* <Testimonial/> */}
+      <Testimonial/>
 <MainHomeProduct/>
 
 
