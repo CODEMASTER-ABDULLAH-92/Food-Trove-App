@@ -12,7 +12,7 @@ import ProductDetail from './Pages/ProductDetail';
 import ProductList from './Pages/ProductList';
 import RegLog from './Pages/RegLog';
 import SignUp from './Pages/SignUp';
-// import Cart from './Pages/cart';
+// import Cart from './Pages/Cart';
 
 const App = () => {
   return (
