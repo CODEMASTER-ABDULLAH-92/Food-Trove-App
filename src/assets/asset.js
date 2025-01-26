@@ -41,7 +41,7 @@ import eye from "/src/assets/eye.png";
 
 import web from "/src/assets/web.png";
 import cross from "/src/assets/cross.jpg";
-import section from "/src/assets/section.png";
+import section from "/src/assets/Section.png";
 import section2 from "/src/assets/4.png";
 import crossIcon from "/src/assets/Icon.png";
 import whiteStar from "/src/assets/whiteStar.png";
