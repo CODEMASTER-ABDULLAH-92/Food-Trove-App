@@ -12,7 +12,6 @@ const Home = () => {
     <div>
       <Hero/>
       <Herodown/>
-      <Testimonial/>
 <MainHomeProduct/>
 
 
@@ -51,6 +50,7 @@ const Home = () => {
 </div>
 
       <Services/>
+      <Testimonial/>
 <TimeBanner/>
     </div>
   )

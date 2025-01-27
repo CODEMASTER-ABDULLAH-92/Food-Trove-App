@@ -35,19 +35,19 @@ const Nav = () => {
             <div>
               <ul className="flex nav flex-row gap-[16px] justify-center items-center">
                 <NavLink className="text-[14px] font-medium" to="/Homeproduct" onClick={handleLinkClick}>Home</NavLink>
-                <NavLink className="inline-flex justify-center items-center gap-1 text-[14px] cursor-pointer font-medium" to="/category" onClick={handleLinkClick}>
+                <NavLink className="inline-flex justify-center items-center gap-1 text-[14px] cursor-pointer font-medium" to="/" onClick={handleLinkClick}>
                   Category <img src={asset.down} alt="Dropdown" />
                 </NavLink>
-                <NavLink className="inline-flex justify-center items-center gap-1 text-[14px] cursor-pointer font-medium" to="/products" onClick={handleLinkClick}>
+                <NavLink className="inline-flex justify-center items-center gap-1 text-[14px] cursor-pointer font-medium" to="/" onClick={handleLinkClick}>
                   Products <img src={asset.down} alt="Dropdown" />
                 </NavLink>
-                <NavLink className="inline-flex justify-center items-center gap-1 text-[14px] cursor-pointer font-medium" to="/pages" onClick={handleLinkClick}>
+                <NavLink className="inline-flex justify-center items-center gap-1 text-[14px] cursor-pointer font-medium" to="/Homeproduct" onClick={handleLinkClick}>
                   Pages <img src={asset.down} alt="Dropdown" />
                 </NavLink>
-                <NavLink className="inline-flex justify-center items-center gap-1 text-[14px] cursor-pointer font-medium" to="/blog" onClick={handleLinkClick}>
+                <NavLink className="inline-flex justify-center items-center gap-1 text-[14px] cursor-pointer font-medium" to="/about" onClick={handleLinkClick}>
                   Blog <img src={asset.down} alt="Dropdown" />
                 </NavLink>
-                <NavLink className="inline-flex justify-center items-center gap-1 text-[14px] cursor-pointer font-medium" to="/elements" onClick={handleLinkClick}>
+                <NavLink className="inline-flex justify-center items-center gap-1 text-[14px] cursor-pointer font-medium" to="/faqs" onClick={handleLinkClick}>
                   Elements <img src={asset.down} alt="Dropdown" />
                 </NavLink>
               </ul>
@@ -82,19 +82,19 @@ const Nav = () => {
             role="button"
           />
           <NavLink className="inline-flex text-[14px] justify-center items-center font-medium hover:bg-green-300 w-full h-12" to="/Homeproduct" onClick={handleLinkClick}>Home</NavLink>
-          <NavLink className="inline-flex justify-center hover:bg-green-300 w-full h-12 items-center gap-1 text-[14px] cursor-pointer font-medium" to="/category" onClick={handleLinkClick}>
+          <NavLink className="inline-flex justify-center hover:bg-green-300 w-full h-12 items-center gap-1 text-[14px] cursor-pointer font-medium" to="/" onClick={handleLinkClick}>
             Category <img src={asset.down} alt="Dropdown" />
           </NavLink>
           <NavLink className="inline-flex justify-center hover:bg-green-300 w-full h-12 items-center gap-1 text-[14px] cursor-pointer font-medium" to="/products" onClick={handleLinkClick}>
             Products <img src={asset.down} alt="Dropdown" />
           </NavLink>
-          <NavLink className="inline-flex justify-center hover:bg-green-300 w-full h-12 items-center gap-1 text-[14px] cursor-pointer font-medium" to="/pages" onClick={handleLinkClick}>
+          <NavLink className="inline-flex justify-center hover:bg-green-300 w-full h-12 items-center gap-1 text-[14px] cursor-pointer font-medium" to="/" onClick={handleLinkClick}>
             Pages <img src={asset.down} alt="Dropdown" />
           </NavLink>
-          <NavLink className="inline-flex justify-center hover:bg-green-300 w-full h-12 items-center gap-1 text-[14px] cursor-pointer font-medium" to="/blog" onClick={handleLinkClick}>
+          <NavLink className="inline-flex justify-center hover:bg-green-300 w-full h-12 items-center gap-1 text-[14px] cursor-pointer font-medium" to="/Homeproduct" onClick={handleLinkClick}>
             Blog <img src={asset.down} alt="Dropdown" />
           </NavLink>
-          <NavLink className="inline-flex justify-center hover:bg-green-300 w-full h-12 items-center gap-1 text-[14px] cursor-pointer font-medium" to="/elements" onClick={handleLinkClick}>
+          <NavLink className="inline-flex justify-center hover:bg-green-300 w-full h-12 items-center gap-1 text-[14px] cursor-pointer font-medium" to="/faqs" onClick={handleLinkClick}>
             Elements <img src={asset.down} alt="Dropdown" />
           </NavLink>
           <NavLink className="flex justify-center hover:bg-green-300 w-full h-12 items-center" to="/cart" onClick={handleLinkClick}>
